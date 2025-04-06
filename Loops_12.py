@@ -1,8 +1,13 @@
 given_num = int(input("Enter the range of fibonacci series: "))
 
-current = 0
-start = 1
+prev = 0
 
-for i in range(given_num):
-    print(current, current+start)
-    current += current + start
+curr = 1
+
+print(prev, curr, end=" ")
+
+for i in range(given_num-2):
+    fabi = prev+curr
+    print(fabi, end=" ")
+    prev = curr
+    curr = fabi
