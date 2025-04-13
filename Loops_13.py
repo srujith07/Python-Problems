@@ -1,10 +1,8 @@
+n = int(input("Enter number top find its factorial : "))
+fact = 1
+while n > 0 :
+    fact = fact * n
+    n = n-1
 
-num = int(input("Enter the number to reverse: "))
+print(fact)
 
-print(str(num)[::-1])
-
-#method 2
-
-rm = num % 10
-
-print(rm)
