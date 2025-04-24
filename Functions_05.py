@@ -1,15 +1,10 @@
-# outer function
-def outer_fun(a, b):
-    square = a ** 2
 
-    # inner function
-    def addition(a, b):
+def ou_fun(a,b):
+    def in_fun():
         return a + b
+    return in_fun() + 5
+a = ou_fun(4,5)
 
-    # call inner function from outer function
-    add = addition(a, b)
-    # add 5 to the result
-    return add + 5
+print(a)
 
-result = outer_fun(5, 10)
-print(result)
+
