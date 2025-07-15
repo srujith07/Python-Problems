@@ -1,4 +1,5 @@
-
+# Interactive Menu
+# Create a simple interactive menu with options like “1. Say Hello”, “2. Calculate Square”, “3. Exit”. Based on the user’s input, perform the corresponding action
 
 while True:
 

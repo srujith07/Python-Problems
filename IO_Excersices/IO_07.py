@@ -1,4 +1,15 @@
-
+#  Accept any three string from one input() call
+# Write a program to take three names as input from the user in a single call to the input() function.
+#
+# See: Get multiple inputs from a user in one line
+#
+# Show Hint
+# Expected Output
+#
+# Enter three string Emma Jessa Kelly
+# Name1: Emma
+# Name2: Jessa
+# Name3: Kelly
 
 #Method 1
 data = []
