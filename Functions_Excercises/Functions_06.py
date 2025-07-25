@@ -6,13 +6,13 @@
 # Expected Output:
 #
 # 55
-def my_func(no):
-    if no == 0:
+
+def excercise_06(number_x):
+    if number_x == 1:
         return 1
-    else:
-        return no * my_func(no-1)
 
-a = my_func(5)
+    return number_x + excercise_06(number_x-1)
 
-print(a)
+solution = excercise_06(10)
 
+print(solution)
